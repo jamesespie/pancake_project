@@ -1,0 +1,27 @@
+body{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #dddada
+	;
+}
+
+.container{
+	margin:10em;
+}
+.mycomponentblock{
+	margin-top:10em;
+}
+button{
+	margin: 0.5em;
+	margin-top:10em;
+	background-color: lightgoldenrodyellow;
+	font-size:20px;
+	border-radius: 5px;
+	color:#686262;
+	box-shadow: cornsilk;
+}
+select{
+	color: black;
+}
+.pancakeoptions span{
+	margin:0.5em;
+}
