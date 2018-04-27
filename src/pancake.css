@@ -15,7 +15,12 @@ body {
 	animation-fill-mode: forwards;
 	animation-timing-function: ease;
   }
-
+  .stack {
+	  position: absolute;
+	  max-height: 800px;
+	  bottom:-300px;
+	  right: 200px;
+  }
   .plate {
 	width: 230px;
 	height: 14px;
@@ -59,17 +64,15 @@ body {
 	border-radius: 2px;
 	box-shadow: inset 0 -2px 0 2px rgba(85, 74, 35, 0.1);
   }
-
-  .pancake {
+ .pancake {
 	width: 200px;
 	height: 14px;
 	background: #D8CB9F;
 	border-radius: 1rem;
 	box-shadow: inset 0 -2px 0 3px rgba(85, 74, 35, 0.1);
 	margin: auto;
+	position: relative;
   }
-
-
 
   .chocchip {
 	background: radial-gradient(brown 15%, transparent 16%) 0 0,

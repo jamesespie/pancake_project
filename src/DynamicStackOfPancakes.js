@@ -31,7 +31,7 @@ class DynamicStackOfPancakes extends Component {
   render() {
 	console.log(this.state.listOfPancakes);
     return (
-		<div>
+		<div class="stack">
 			<Butter />
 			{this.state.listOfPancakes.map(x => x)}
 			<Plate />
